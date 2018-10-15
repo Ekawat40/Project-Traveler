@@ -274,6 +274,12 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Aekkawat/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
@@ -659,21 +665,11 @@
     <Compile Include="Assets\ShopTutorialAssets\GameControlScript.cs" />
     <Compile Include="Assets\ShopTutorialAssets\MoveGirlScript.cs" />
     <Compile Include="Assets\ShopTutorialAssets\ShopControlScript.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Sample\AutoRotate.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Sample\MoveControl.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Sample\SampleScript.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\DataSnapshot.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\Firebase.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\FirebaseError.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\FirebaseManager.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\FirebaseObserver.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\FirebaseParam.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\FirebaseQueue.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\FirebaseRoot.cs" />
-    <Compile Include="Assets\SimpleFirebaseUnity\Scripts\miniJSON.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\SimpleFirebaseUnity\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.84.0.txt" />
+    <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
